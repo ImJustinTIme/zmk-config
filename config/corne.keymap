@@ -3,6 +3,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+
+    combos {
+        compatible = "zmk,combos";
+        
+        delete {
+            key-positions = <32 33>;
+            bindings = <&kp DEL>;
+        };
+        tab {
+            key-positions = <2 3>;
+            bindings = <&kp TAB>;
+        };
+    };
+
     behaviors {
         spc_shft: spc_shft {
             compatible = "zmk,behavior-hold-tap";
