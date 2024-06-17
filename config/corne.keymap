@@ -6,9 +6,9 @@
     combos {
         compatible = "zmk,combos";
 
-        delete {
+        backspace {
             key-positions = <9 10>;
-            bindings = <&kp DEL>;
+            bindings = <&kp BACKSPACE>;
         };
 
         tab {
@@ -24,6 +24,11 @@
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <13 14>;
+        };
+
+        Delete {
+            bindings = <&kp DEL>;
+            key-positions = <8 9 10 7>;
         };
     };
 
