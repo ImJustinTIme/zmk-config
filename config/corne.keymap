@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
     combos {
@@ -50,6 +49,16 @@
         three-finger-enter {
             bindings = <&kp ENTER>;
             key-positions = <22 21 20>;
+        };
+
+        nav-space-right {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <19 39 16>;
+        };
+
+        nav-space-left {
+            bindings = <&kp RC(LEFT)>;
+            key-positions = <19 39 14>;
         };
     };
 
@@ -110,10 +119,10 @@
 
         Function+Navigation {
             bindings = <
-&none  &trans  &trans    &kp UP_ARROW  &trans     &trans    &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &none
-&none  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &kp H      &kp J      &kp K      &kp L   &trans  &none
-&none  &trans  &trans    &trans        &trans     &trans    &trans     &trans     &trans     &trans  &trans  &none
-                         &trans        &trans     &trans    &trans     &trans     &trans
+&none  &trans  &kp PAGE_DOWN  &kp UP_ARROW  &kp PAGE_UP  &trans    &trans  &trans  &trans  &trans  &trans  &none
+&none  &trans  &kp LEFT       &kp DOWN      &kp RIGHT    &trans    &kp H   &kp J   &kp K   &kp L   &trans  &none
+&none  &trans  &trans         &trans        &trans       &trans    &trans  &trans  &trans  &trans  &trans  &none
+                              &trans        &trans       &trans    &trans  &trans  &trans
             >;
         };
 
