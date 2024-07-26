@@ -49,7 +49,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,11 +62,11 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - '-'
-  - '-'
-  - '='
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
+  - '|'
   - ''
   - '0'
   - {type: held}
@@ -192,10 +192,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
+  - '-'
+  - '='
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,7 +207,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -267,11 +267,11 @@ combos:
   k: ENTER
 - p: [13, 14]
   k: ESCAPE
-- p: [8, 9, 10, 7]
+- p: [8, 9, 10]
   k: DEL
 - p: [21, 22]
   k: ''''
-- p: [1, 2, 3, 4]
+- p: [1, 2, 3]
   k: '`'
 - p: [25, 26]
   k: LEFT SHIFT
@@ -287,3 +287,5 @@ combos:
   k: Ctl+ RIGHT
 - p: [0, 12, 24]
   k: Ctl+ RIGHT
+- p: [1, 2, 5]
+  k: '~'
