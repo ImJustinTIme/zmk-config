@@ -283,9 +283,5 @@ combos:
   k: RIGHT
 - p: [14, 15, 13]
   k: LEFT
-- p: [11, 23, 35]
-  k: Ctl+ RIGHT
-- p: [0, 12, 24]
-  k: Ctl+ RIGHT
 - p: [1, 2, 5]
   k: '~'
