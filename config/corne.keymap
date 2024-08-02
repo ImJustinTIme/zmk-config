@@ -111,10 +111,10 @@
 
         Base {
             bindings = <
-&none  &kp Q            &kp W            &kp F              &kp P         &kp G          &kp J        &kp L         &kp U               &kp Y             &kp SEMI              &none
-&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LEFT_SHIFT S  &hml LCTRL T  &kp D          &kp H        &hmr RCTRL N  &hmr RIGHT_SHIFT E  &hmr RIGHT_ALT I  &hmr RIGHT_COMMAND O  &none
-&none  &kp Z            &kp X            &kp C              &kp V         &kp B          &kp K        &kp M         &kp COMMA           &kp DOT           &kp FSLH              &none
-                                         &kp LEFT_GUI       &mo 1         &lt 2 SPACE    &lt 2 SPACE  &mo 4         &mo 5
+&none  &kp Q            &kp W            &kp F                     &kp P         &kp G          &kp J        &kp L         &kp U               &kp Y             &kp SEMI              &none
+&none  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LEFT_SHIFT S         &hml LCTRL T  &kp D          &kp H        &hmr RCTRL N  &hmr RIGHT_SHIFT E  &hmr RIGHT_ALT I  &hmr RIGHT_COMMAND O  &none
+&none  &kp Z            &kp X            &kp C                     &kp V         &kp B          &kp K        &kp M         &kp COMMA           &kp DOT           &kp FSLH              &none
+                                         &kp LC(LA(LS(LEFT_GUI)))  &mo 1         &lt 2 SPACE    &lt 2 SPACE  &mo 4         &mo 5
             >;
         };
 
