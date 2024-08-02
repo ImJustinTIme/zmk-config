@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - ''
-  - LEFT GUI
+  - Meh+ LEFT GUI
   - Numeric
   - {t: SPACE, h: Navigation}
   - {t: SPACE, h: Navigation}
