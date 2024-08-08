@@ -89,9 +89,9 @@ layers:
   Navigation:
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - UP ARROW
-  - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
