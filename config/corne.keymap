@@ -129,10 +129,10 @@
 
         Navigation {
             bindings = <
-&none  &trans  &trans    &kp UP_ARROW  &trans     &trans    &trans  &trans  &trans  &trans  &kp BACKSPACE  &none
-&none  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &kp H   &kp J   &kp K   &kp L   &trans         &none
-&none  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans         &none
-                         &trans        &trans     &trans    &trans  &trans  &trans
+&none  &trans  &kp PAGE_DOWN  &kp UP_ARROW  &kp PAGE_UP  &trans    &trans  &trans  &trans  &trans  &kp BACKSPACE  &none
+&none  &trans  &kp LEFT       &kp DOWN      &kp RIGHT    &trans    &kp H   &kp J   &kp K   &kp L   &trans         &none
+&none  &trans  &trans         &trans        &trans       &trans    &trans  &trans  &trans  &trans  &trans         &none
+                              &trans        &trans       &trans    &trans  &trans  &trans
             >;
         };
 
