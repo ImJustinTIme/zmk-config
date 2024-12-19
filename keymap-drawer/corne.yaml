@@ -285,3 +285,5 @@ combos:
   k: LEFT
 - p: [1, 2, 4]
   k: '~'
+- p: [19, 39]
+  k: Ctl+ SPACE
