@@ -70,6 +70,11 @@
             bindings = <&kp TILDE>;
             key-positions = <1 2 4>;
         };
+
+        ctrl+space {
+            bindings = <&kp RC(SPACE)>;
+            key-positions = <19 39>;
+        };
     };
 
     behaviors {
